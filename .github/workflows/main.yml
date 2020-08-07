@@ -21,7 +21,7 @@ jobs:
       - name: "Update gist"
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: dc3d0f7a3cd13207770a4debbb902d1d
-          CHANNEL_ID: UCrVWVOBoBu7W-aXbApDEuyQ
+          GIST_ID: e61df13cc190ae268d6295db2edc36ab
+          CHANNEL_ID: UC9a0uk9XDEWfYKGpC0Tio7A
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
         run: python main.py
